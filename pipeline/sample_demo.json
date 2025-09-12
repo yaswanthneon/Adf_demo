@@ -10,6 +10,18 @@
 				"typeProperties": {
 					"waitTimeInSeconds": 20
 				}
+			},
+			{
+				"name": "Execute Pipeline1",
+				"type": "ExecutePipeline",
+				"dependsOn": [],
+				"policy": {
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"waitOnCompletion": false
+				}
 			}
 		],
 		"annotations": []
